@@ -1,0 +1,46 @@
+.Main-container{
+  height:100vh;
+  background-color: #242018;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.diamond-shape {
+  height: 35vh;
+  width:16vw;
+  transform:rotate(45deg);
+  border-top:18px solid #c95e24;
+  border-left:18px solid #37a63c;
+  border-right: 18px solid #9e968d;
+  border-bottom: 18px solid #6088bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container{
+  transform: rotate(-45deg);
+  display: table-cell;	
+  vertical-align: middle;
+  height: 16vh;
+  width:14vw;
+  text-align: center;
+}
+
+.heading1{
+  color:#ffffff;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.spanEl{
+  color:#ab633c;
+}
+
+.paraEl{
+  color:#ffffff;
+  font-size: 14px;
+}
